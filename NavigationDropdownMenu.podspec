@@ -12,5 +12,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/Xiaoye220/NavigationDropdownMenu.git", :tag => "#{s.version}" }
   s.source_files  = "Source/**/*.swift"
   s.resources = "Source/*.bundle"
+  s.swift_version = '5.0'
   
 end
